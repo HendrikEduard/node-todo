@@ -1,9 +1,6 @@
-# node-js-playlist
-CSS and asset files for the Net Ninja YouTube nodejs playlist
+# Node.js To Do List
 
-The final project code can be found in the public/assests folder of this repo
+##### Disclaimer: This is my first Node app.
 
-If you have been following the tutorial, code for each and every lesson is added in the Practice folder so you can directly download and check.
-All files have been tested.
+This is a standalone app to create, view and delete To Do items created using Node.js, Express and EJS.
 
-If more files for  .\Practice\ should be added. They will be added very soon.
