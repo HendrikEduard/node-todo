@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do list</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <div id="todo-table">
+    <h2>To Do List</h2>
+    <form>
+      <input type="text" name="item" placeholder="Add new item..." required>
+      <button type="submit">Add Item</button>
+    </form>
+    <p>Click on completed item(s) to delete them.</p>
+    <ul>
+     <% for(var i=0; i<todos.length; i++){ %>
+        <li><%= todos[i].item %></li>
+     <% } %>
+    </ul>
+  </div>
+  <script src="/assets/todo-list.js"></script>
+</body>
+</html>

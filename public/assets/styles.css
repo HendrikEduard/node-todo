@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #132131;
+    font-family: tahoma;
+    color: #7F7B82;
+}
+
+#todo-table{
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 83vw;
+    padding: 20px;
+    background: #131321;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    float: left;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 70%;
+    background:#181c22;
+    color: #7F7B82;
+    font-size: 20px;
+    border: 0;
+}
+
+button{
+    float: left;
+    width: 30%;
+    padding: 20px;
+    background: #23282e;
+    border: 0;
+    color: #ccc;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+p {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    text-decoration: line-through;
+    background: rgba(0,0,0,0.2);
+}
+
+h1{
+    background: url(/logo.png) no-repeat center;
+    margin-bottom: 0;
+    text-indent: -10000px;
+}
+h2 {
+    margin: 10px 0 20px 0;
+    font-family: sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
